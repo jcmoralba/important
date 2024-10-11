@@ -31,7 +31,7 @@ loadScript('https://code.jquery.com/jquery-3.6.0.min.js', function() {
     loadScript('assets/vendor/bootstrap/js/bootstrap.bundle.min.js', function() {
         console.log('Bootstrap JS loaded!');
     });
-
+    //<!-- Vendor JS Files -->
     loadScript('assets/vendor/php-email-form/validate.js', function() {
         console.log('Bootstrap JS loaded!');
     });
@@ -59,4 +59,10 @@ loadScript('https://code.jquery.com/jquery-3.6.0.min.js', function() {
     loadScript('assets/vendor/isotope-layout/isotope.pkgd.min.js', function() {
         console.log('Bootstrap JS loaded!');
     });
+    // main js file
+    loadScript('assets/js/main.js', function() {      
+    });
+
+
+    
 });
